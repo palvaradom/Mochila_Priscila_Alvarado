@@ -1,0 +1,117 @@
+Comandos
+
+1. Navegación entre carpetas 
+Cambiar de carpeta
+$ cd
+
+Subir un nivel de carpeta
+$ cd ..
+
+Cambiar a una carpeta específica
+$ cd nombreCarpeta
+
+
+2. Crear
+Crear una nueva directorio o carpeta
+$ mkdir [Carpeta]
+
+Crear un nuevo archivo
+$ touch [Nombre del archivo]
+
+Clonar un repositorio existente
+$ git clone ssh://usuario@domain.com/repo.git
+
+Crear un nuevo repositorio local
+$ git init
+
+
+3. Mostrar
+Listar archivos en el directorio o carpeta
+$ ls 
+
+Listar todos los archivos, incluyendo los archivos ocultos
+$ ls -a 
+
+Mostrar toda la información de una carpeta: usuario, grupo, permisos, tamaño, fecha y hora de creación
+$ ls -l 
+
+Mostrar las carpetas y los archivos contenidos en ellos de manera recursiva
+$ ls -R 
+
+Mostrar la carpeta en la que se está trabajando actualmente
+$ pwd
+
+
+4. Eliminar  
+Eliminar un archivo
+$ rm [Nombre del archivo] 
+
+Eliminar una carpeta vacía
+$ rmdir [Nombre de la carpeta] 
+
+Eliminar una carpeta y su contenido
+$ rm -r [Nombre de la carpeta]
+
+5. Copiar/Mover/Renombrar
+Renombrar archivos (archivo2 no debe existir o será sobreescrito)
+$ mv [ruta/archivo1] [ruta/archivo2]
+
+Renombrar la carpeta1 como carpeta2 (carpeta 2 no debe existir)
+$ mv [ruta/carpeta1] [ruta/carpeta2]
+
+Mover contenido de carpeta1 a carpeta2 (carpeta 2 debe existir)
+$ mv [ruta/carpeta1] [ruta/carpeta2]
+
+Copiar un archivo o carpeta
+$ cp [ruta/archivo1] [ruta/archivo2] 
+$ cp [ruta/archivo1] [ruta/archivo2]
+
+Indicar que copie recursivamente el contenido de las subcarpetas
+opción: -r
+
+
+6. Gestión de cambios
+
+Agregar todos los archivos modificados al área de preparación
+$ git add .
+
+Ver el estado de los archivos en el repositorio de Git
+$ git status
+
+Realizar un commit con un mensaje descriptivo
+$ git commit -m "mensaje"
+
+Ver el historial de commits en el repositorio
+$ git log
+
+7. Interacción con el entorno de desarrollo
+
+Abrir Visual Studio Code desde la terminal en el directorio actual
+$ code .
+
+Ver el historial de comandos ejecutados en la terminal
+$ history
+
+8. Gestión de repositorios remotos
+
+Asociar un repositorio remoto a tu repositorio local
+$ git remote add origin [url]
+
+Ver las URL de los repositorios remotos vinculados
+$ git remote -v
+
+9. Gestión de ramas
+
+Crear una nueva rama
+$ git branch [nombreRama]
+
+Moverse a la rama 
+$ git checkout [nombreRama]
+
+10. Intercambio de cambios con repositorios remotos
+
+Enviar los cambios locales de la rama "main" al repositorio remoto "origin".
+$ git push origin main
+ 
+Obtener los cambios más recientes de la rama "main" del repositorio remoto "origin" y fusionarlos con la rama local actual
+$ git pull origin main
