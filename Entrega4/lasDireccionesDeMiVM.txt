@@ -1,0 +1,9 @@
+Las Direcciones de mi Virtual Machine
+
+1. IP privada: 10.0.2.15
+2. IP pública: 186.46.174.194
+3. Dirección MAC: 08:00:27:e7:b6:19
+4. ¿Es diferente a la IP pública y privada de nuestra máquina host?
+La IP pública es la misma porque comparten la misma conexión a Internet. Por otro lado, 
+las direcciones IP privadas son diferentes ya que son asignadas por el enrutador 
+o servicio DHCP dentro de mi red local.  
