@@ -1,0 +1,14 @@
+Ejercitacion: Conexion a un servidor Server en Virtual Box
+
+En este caso utilice TELNET y lleve a cabo los siguientes pasos:
+
+1. Configure la red de la maquina virtual en modo "Adaptador puente" y 
+   ademas elegi mi placa de red.
+2. Encendi la VM y accedi como usuario root usando el comando "sudo su".
+3. Instale TELNET empleando el comando "apt-get install telnetd"
+4. Verifique que el servicio Telnet este en ejecucion ingresando el comando
+   "systemctl status inetd" y efectivamente se mostaba como active(running).
+5. En la terminal de mi computadora use el comando telnet 192.168.1.10 
+6. Ingrese al usuario root
+7. Clone la mochila, configure las credenciales, cree la rama de la entrega5
+y finalmente el presente archivo :)
