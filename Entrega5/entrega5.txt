@@ -12,3 +12,35 @@ En este caso utilice TELNET y lleve a cabo los siguientes pasos:
 6. Ingrese al usuario root
 7. Clone la mochila, configure las credenciales, cree la rama de la entrega5
 y finalmente el presente archivo :)
+
+- Ventajas de utilizar el protocolo Telnet
+
+1. Acceso remoto: Permite acceder y controlar de manera remota equipos y servicios a través de una red, lo que resulta conveniente para administrar sistemas distribuidos geográficamente.
+2. Amplia compatibilidad: Telnet es compatible con una variedad de sistemas operativos y dispositivos, lo que facilita su implementación en diferentes entornos.
+3. Sencillez: El protocolo Telnet es relativamente fácil de configurar y utilizar, lo que lo hace accesible para usuarios no técnicos.
+
+- Desventajas de utilizar el protocolo Telnet
+
+1. Falta de seguridad: Telnet no proporciona cifrado de datos, lo que significa que la información enviada a través de Telnet puede ser interceptada y leída por personas no autorizadas. Esto hace que sea inadecuado para transmitir datos sensibles o confidenciales.
+2. Vulnerabilidades: Debido a su falta de cifrado y autenticación débil, Telnet es propenso a ataques de seguridad, como el robo de contraseñas o la manipulación de datos en tránsito.
+3. Limitaciones funcionales: A diferencia de otros protocolos, Telnet no admite transferencia de archivos ni la capacidad de ejecutar aplicaciones gráficas de manera eficiente. Esto puede restringir su utilidad en ciertos escenarios.
+
+- Ventajas de utilizar el protocolo SSH
+
+1. Seguridad: SSH utiliza cifrado para proteger la confidencialidad e integridad de los datos transmitidos, lo que lo hace adecuado para transmitir información sensible y confidencial. Además, ofrece autenticación sólida para verificar la identidad del usuario y prevenir ataques de suplantación.
+2. Conexión remota segura: SSH proporciona una conexión segura a través de Internet o redes no confiables, lo que permite acceder y controlar de forma remota equipos y servicios de manera segura.
+3. Transferencia de archivos: SSH incluye funcionalidades para la transferencia segura de archivos, permitiendo la copia segura de archivos entre sistemas.
+4. Flexibilidad: SSH es ampliamente compatible con diferentes sistemas operativos y plataformas, lo que facilita su implementación en entornos diversos.
+
+- Desventajas de utilizar el protocolo SSH
+
+1. Configuración inicial: Configurar SSH correctamente puede requerir un conocimiento técnico adecuado, especialmente en entornos más complejos. Es importante seguir buenas prácticas de configuración y gestión de claves para garantizar la seguridad adecuada.
+2. Requiere recursos computacionales: El cifrado utilizado por SSH puede requerir más recursos computacionales en comparación con otros protocolos no cifrados, lo que puede afectar el rendimiento en sistemas con recursos limitados.
+3. Posible bloqueo de puertos: En algunas redes o sistemas, los puertos utilizados por SSH pueden estar bloqueados por razones de seguridad, lo que dificulta su uso en esos entornos.
+
+- Las principales diferencias entre SSH y Telnet son las siguientes:
+
+1. SSH ofrece una conexión segura y cifrada, mientras que Telnet no proporciona seguridad en la transmisión de datos.
+2. SSH utiliza autenticación sólida con claves públicas y privadas o contraseñas seguras, mientras que Telnet tiene una autenticación débil basada en contraseñas simples.
+3. SSH permite la transferencia segura de archivos a través de SCP o SFTP, mientras que Telnet no tiene esta funcionalidad.
+4. Por úlñtimo, SSH utiliza el puerto 22 por defecto, mientras que Telnet utiliza el puerto 23 por defecto.
